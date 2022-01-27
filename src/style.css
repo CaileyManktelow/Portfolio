@@ -31,4 +31,9 @@ footer {
   color: white;
   padding: 15px 30px;
   border-radius: 12px;
+  border: 1px solid #4a4ff7;
+}
+a:hover {
+  background: #e8d9f9;
+  color: #4a4ff7;
 }
