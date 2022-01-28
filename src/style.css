@@ -66,3 +66,29 @@ hero h2 {
   padding: 10px;
   border-radius: 12px;
 }
+@media (max-width: 800px) {
+  .hero {
+    padding: 50px 15px;
+  }
+  .photo {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 35px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .homepage-projects {
+    text-align: center;
+  }
+  .project-link {
+    padding: 15px 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
