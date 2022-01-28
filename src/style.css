@@ -2,6 +2,10 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+p {
+  font-family: "Nunito", sans-serif;
+  margin-bottom: 20px;
+}
 .hero {
   background: #e8d9f9;
   padding: 100px 30px;
@@ -12,8 +16,11 @@ footer {
 .hero h1 {
   font-size: 60px;
 }
+hero h2 {
+  font-size: 45px;
+}
 .hero p {
-  font-size: 30px;
+  font-size: 45px;
   margin: 0;
 }
 .leaf-icon {
@@ -32,8 +39,30 @@ footer {
   padding: 15px 30px;
   border-radius: 12px;
   border: 1px solid #4a4ff7;
+  transition: all 200ms ease-in-out;
 }
-a:hover {
+.homepage-projects {
+  margin-top: 35px;
+  font-family: "Nunito", sans-serif;
+}
+.navigation-links a:hover {
   background: #e8d9f9;
   color: #4a4ff7;
+}
+.project-link {
+  text-decoration: none;
+  color: #4a4ff7;
+  padding: 15px 30px;
+  border-radius: 12px;
+  border: 1px solid #4a4ff7;
+  transition: all 200ms ease-in-out;
+}
+.project-link:hover {
+  background: #4a4ff7;
+  color: white;
+}
+.photo {
+  background: #e8d9f9;
+  padding: 10px;
+  border-radius: 12px;
 }
