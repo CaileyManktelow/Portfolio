@@ -1,19 +1,21 @@
 :root {
   --primary-color: #4a4ff7;
   --secondary-color: #e8d9f9;
+  --heading-font: "Source Serif 4", sans-serif;
+  --body-font: "Nunito", sans-serif;
 }
 footer {
   display: flex;
   justify-content: space-evenly;
 }
 p {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--body-font);
   margin-bottom: 20px;
 }
 .hero {
   background: var(--secondary-color);
   padding: 100px 30px;
-  font-family: "Source Serif 4", sans-serif;
+  font-family: var(--heading-font);
   text-align: center;
   font-style: italic;
 }
@@ -44,10 +46,11 @@ hero h2 {
   border-radius: 12px;
   border: 1px solid var(--primary-color);
   transition: all 200ms ease-in-out;
+  font-family: var(--body-font);
 }
 .homepage-projects {
   margin-top: 35px;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--body-font);
 }
 .navigation-links a:hover {
   background: var(--secondary-color);
