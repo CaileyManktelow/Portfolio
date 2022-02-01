@@ -1,6 +1,6 @@
 :root {
   --primary-color: #4a4ff7;
-  --secondary-color: #e8d9f9;
+  --secondary-color: #9aa883;
   --heading-font: "Source Serif 4", sans-serif;
   --body-font: "Nunito", sans-serif;
 }
@@ -74,7 +74,7 @@ h2 {
   border-radius: 12px;
 }
 .about-page {
-  background: #9aa883;
+  background: var(--secondary-color);
   padding: 100px 30px;
   font-family: var(--heading-font);
   text-align: center;
@@ -99,6 +99,9 @@ h2 {
 .about-page-link:hover {
   background: none;
   color: var(--primary-color);
+}
+.work-page-project {
+  text-align: center;
 }
 @media (max-width: 800px) {
   .hero {
