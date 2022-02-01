@@ -19,10 +19,10 @@ p {
   text-align: center;
   font-style: italic;
 }
-.hero h1 {
+h1 {
   font-size: 60px;
 }
-hero h2 {
+h2 {
   font-size: 45px;
 }
 .hero p {
@@ -72,6 +72,33 @@ hero h2 {
   background: var(--secondary-color);
   padding: 10px;
   border-radius: 12px;
+}
+.about-page {
+  background: #6b804b;
+  padding: 100px 30px;
+  font-family: var(--heading-font);
+  text-align: center;
+  font-style: italic;
+}
+.about-image {
+  border-radius: 10px;
+}
+.about-paragraph {
+  font-size: 22px;
+}
+.about-page-link {
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+  font-family: var(--body-font);
+}
+.about-page-link:hover {
+  background: none;
+  color: var(--primary-color);
 }
 @media (max-width: 800px) {
   .hero {
