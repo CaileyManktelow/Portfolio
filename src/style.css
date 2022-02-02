@@ -6,7 +6,15 @@
 }
 footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+footer a {
+  border-radius: 50%;
+  padding: 18px 26px;
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+  background: var(--secondary-color);
 }
 p {
   font-family: var(--body-font);
