@@ -114,6 +114,22 @@ footer a:hover {
 .work-page-project {
   text-align: center;
 }
+
+#contact-me h2 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-style: italic;
+  margin: 20px 0 8px;
+  text-align: center;
+}
+#contact-me a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+#contact-me p {
+  text-align: center;
+  font-size: 20px;
+}
 @media (max-width: 800px) {
   .hero {
     padding: 50px 15px;
