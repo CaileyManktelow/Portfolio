@@ -22,7 +22,7 @@ p {
   font-family: var(--body-font);
   margin-bottom: 20px;
 }
-.hero {
+.headding {
   background: var(--secondary-color);
   padding: 100px 30px;
   font-family: var(--heading-font);
@@ -35,7 +35,7 @@ h1 {
 h2 {
   font-size: 45px;
 }
-.hero p {
+.headding p {
   font-size: 45px;
   margin: 0;
 }
@@ -131,7 +131,7 @@ footer a:hover {
   font-size: 20px;
 }
 @media (max-width: 800px) {
-  .hero {
+  .headding {
     padding: 50px 15px;
   }
   .about-page {
@@ -143,23 +143,31 @@ footer a:hover {
   h2 {
     font-size: 20px;
   }
-  .hero p {
+  .headding p {
     font-size: 20px;
   }
   .homepage-projects {
     text-align: center;
   }
   .project-link {
-    padding: 15px 60px;
+    padding: 12px 40px;
   }
-  h2 {
-    font-size: 35px;
-  }
+
   .about-page-link {
     display: flex;
     justify-content: center;
   }
   .work-page-project {
     margin: 20px 0;
+  }
+  .about-paragraph {
+    text-align: center;
+    font-size: 20px;
+  }
+  #contact-me h2 {
+    font-size: 28px;
+  }
+  #contact-me p {
+    font-size: 18px;
   }
 }
